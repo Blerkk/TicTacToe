@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TicTacToe"
+version = "0.1.0"
+description = "A simple Tic-Tac-Toe game with GUI"
+readme = "README.md"
+authors = [
+    {name = "Bagdi Máté Olivér", email = "bagdimate@gmail.com"}
+]
+requires-python = ">=3.6"
+dependencies = [
+    "dearpygui",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Blerkk/TicTacToe"
+"Bug Tracker" = "https://github.com/Blerkk/TicTacToe/issues"
